@@ -11,7 +11,7 @@ function check(){
      document.getElementById("Answer").innerHTML = "Palindrome!!!"
     }else{
         console.log("Not a palindrome");
-        document.getElementById("Answer").innerHTML = "not a Palindrome!!!"
+        document.getElementById("Answer").innerHTML = `${inputString} is not a Palindrome!!!`
     }
 }
 
